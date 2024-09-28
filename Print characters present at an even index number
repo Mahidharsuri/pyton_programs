@@ -1,0 +1,41 @@
+#Print characters present at an even index number
+
+
+word = input('Enter word ')
+print("Original String:", word)
+
+
+size = len(word)
+
+# iterate a each character of a string
+# start: 0 to start with first character
+# stop: size-1 because index starts with 0
+# step: 2 to get the characters present at even index like 0, 2, 4
+print("Printing only even index chars")
+for i in range(0, size , 2):
+    print("index[", i, "]", word[i])
+
+output:
+Enter word mahidhar
+Original String: mahidhar
+Printing only even index chars
+index[ 0 ] m
+index[ 2 ] h
+index[ 4 ] d
+index[ 6 ] a
+
+
+#By using slicing
+
+
+name= 'mahidhar'
+print('length of characters: ',len(name))
+for i in name[0:8:2]:
+     print('even index:',i)
+
+output:
+length of characters:  8
+even index: m
+even index: h
+even index: d
+even index: a
