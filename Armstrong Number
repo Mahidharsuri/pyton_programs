@@ -1,0 +1,21 @@
+n=int(input('enter a num: '))
+temp=n
+
+sum=0
+while n>0:
+    r=n%10
+    sum+=pow(r,3)
+    n//=10
+
+    print(sum)
+if temp==sum:
+    print('true')
+else:
+    print('false')
+
+#input=153
+#Output:
+27
+152
+153
+true
