@@ -1,0 +1,11 @@
+number_list = [5, 8, 2,2,2,2,2, 7, 3, 5, 6, 9, 2, 4, 8, 7, 1, 5, 3]
+#freq_list=set(number_list)
+#print(freq_list)
+freq_list=[]
+for num in number_list:
+    if number_list.count(num) >= 3:
+        freq_list.append(num)
+print(freq_list)
+
+#Output
+[5, 2, 2, 2, 2, 2, 5, 2, 5]
