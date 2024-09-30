@@ -1,0 +1,13 @@
+n=int(input('enter a number: '))
+a=0
+b=1
+#for i in range(n):
+print('Fibonacci Sequence: ')
+while a<=n:
+     a,b=b,a+b
+     print(a,end=' ')
+
+#Output:
+enter a number: 20
+Fibonacci Sequence: 
+1 1 2 3 5 8 13 21 
