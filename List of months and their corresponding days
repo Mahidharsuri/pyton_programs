@@ -1,0 +1,19 @@
+# List of months and their corresponding days
+months = [
+    ("January", 31), ("February", 28), ("March", 31), ("April", 30),
+    ("May", 31), ("June", 30), ("July", 31), ("August", 31),
+    ("September", 30), ("October", 31), ("November", 30), ("December", 31)
+]
+
+# Initialize a counter
+i = 0
+
+# While loop to print the months with their dates and weeks
+while i < len(months):
+    month, days = months[i]
+    weeks = days // 7  # Integer division to get full weeks
+    print(weeks)
+    remaining_days = days % 7  # Remaining days after full weeks
+    print( remaining_days)
+    print(f"{month}: {days} days, {weeks} weeks and {remaining_days} days")
+    i += 1
