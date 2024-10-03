@@ -1,0 +1,42 @@
+Type-1
+
+n=int(input('Please enter the number of rows : '))
+
+for  i in range(n+1):
+    print((n-i)*" ",i*" *")
+for j in range(n,0,-1):
+    print((n-j)*" ",j*" *")
+
+Type-2
+
+
+n=int(input('Please enter the number of rows : '))
+
+for i in range (n+1):
+    for j in range(i,n):
+        print(" ",end='')
+    for k in range (i):
+        print(" *",end='')
+    print()
+
+for i in range (n+1):
+    for j in range(i):
+        print(" ",end='')
+    for k in range (i,n):
+        print(" *",end='')
+    print()
+
+
+Output:
+         *
+        * *
+       * * *
+      * * * *
+     * * * * *
+    * * * * * *
+    * * * * * *
+     * * * * *
+      * * * *
+       * * *
+        * *
+         *
