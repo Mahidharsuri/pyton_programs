@@ -1,0 +1,33 @@
+rows = int(input('Please enter the number of rows : '))
+
+for i in range(rows, 0, -1):
+    #print((rows - i) * ' ' + ('* ') * i)
+    print((rows-i)*' ',i*' *')
+
+Output:
+
+Please enter the number of rows : 6
+  * * * * * *
+   * * * * *
+    * * * *
+     * * *
+      * *
+       *
+
+
+
+rows = int(input('Please enter the number of rows : '))
+
+for i in range (rows+1):
+    print((rows-i)*' ', i*' *')
+
+Output:
+
+Please enter the number of rows : 6
+       
+       *
+      * *
+     * * *
+    * * * *
+   * * * * *
+  * * * * * *
