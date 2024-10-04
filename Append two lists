@@ -1,0 +1,11 @@
+n = ['I', 'Logical']
+s = ['Love', 'Python']
+l=[]
+for i in n:
+    for j in s:
+        l.append(i+" "+j)
+        
+print(l)
+ 
+Output:
+['I Love', 'I Python', 'Logical Love', 'Logical Python']
