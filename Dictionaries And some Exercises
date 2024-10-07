@@ -1,0 +1,26 @@
+Dictionaries: Dictionary is a Collection Of  {key: value } Value pairs ordered and Changable . No Duplicates allow 
+
+my_list={"Name":"Max",
+         "ID":"21JN5A0215",
+         "Year":"Final Year",
+         "college":"SVCN",
+         "Village":"Rajupalem"}
+
+#my_list.update({"Dist":"Nellore"})
+#my_list
+#my_list["Village"]="Golden Nagar"
+#del my_list["college"]
+#my_list.pop("Village")
+#my_list.popitem()
+#my_list.clear()
+#print(my_list)
+
+
+
+#for keys in my_list.keys():
+#    print(keys)
+#for value in my_list.values():
+ #   print(value)
+
+#for keys,values in my_list.items():
+ #   print(f'{keys}:{values}')
