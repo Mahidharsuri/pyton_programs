@@ -1,0 +1,30 @@
+# Flashcard Quiz Game
+import random
+
+quiz_game={"what is the capital of india ":"delhi",
+           "how many states in india":"29",
+           "richest city in india ":"mumbai",
+           "smallest city in india":"goa"}
+
+print("----------------------------")
+for ques,ans in quiz_game.items():
+    print(f'{ques:30}:{ans}')
+print("----------------------------")
+
+score=0
+
+questions=list(quiz_game.keys())
+
+print("Welcome to the Flashcard Quiz Game!")
+
+for _ in range(len(questions)):
+    question=random.choice(questions)
+    answer= quiz_game[question]
+
+    user=input(f'Question:{question} \n your answer: ')
+    if user.lower()==answer.lower():
+        print("correct")
+        score+=1
+    else:
+        print(f"incorrect ! correct answer is {answer}")
+print(f'your score is {score} out of {len(questions)}')
