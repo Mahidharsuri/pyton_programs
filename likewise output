@@ -1,0 +1,10 @@
+#likewise output
+#suri mahidhar max
+
+for i in range(1,4):
+    print("Suri",end=' ')
+    for j in range(i,i+1):
+        print("Mahidhar ",end=' ')
+        for x in range(j,j+1):
+            print("Max",end=' ')
+        print()
