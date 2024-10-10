@@ -1,0 +1,22 @@
+import random
+
+for _ in range (10):
+    print(random.randint(1,100))
+
+head=0
+tails=0
+for i in range (10):
+    toss=random.choice(["head","tails"])
+    if toss=="head":
+        head+=1
+    else:
+        tails+=1
+
+print(f"{head}:{tails}")
+
+if head>5:
+    print("head wins")
+elif head==tails:
+    print("its a tie")
+else:
+    print("tails wins")
