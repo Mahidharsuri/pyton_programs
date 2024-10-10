@@ -1,0 +1,14 @@
+import random
+
+steps=50
+position=0
+
+for step in range (steps):
+    stap=random.choice([-1,1])
+    position+=stap
+print(position)
+print(f"position of 50 steos is :{position}")
+if position>0:
+    print("its right")
+else:
+    print("its left")
