@@ -1,0 +1,6 @@
+def HappyBirthday(present_year,birth_year):
+    age= present_year - birth_year
+    print("Happy birthday Drlg_💙")
+    print(f"your are {age} years old !")
+
+HappyBirthday(2024,2002)
