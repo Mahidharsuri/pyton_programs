@@ -31,3 +31,27 @@ Please enter the number of rows : 6
     * * * *
    * * * * *
   * * * * * *
+
+word="PROGRAM"
+x=0
+for i in word:
+    x+=1
+    print(word[0:x])
+for i in word:
+    x-=1
+    print(word[0:x])
+
+output:
+P
+PR
+PRO
+PROG
+PROGR
+PROGRA
+PROGRAM
+PROGRA
+PROGR
+PROG
+PRO
+PR
+P
