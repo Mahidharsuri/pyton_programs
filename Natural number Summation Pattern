@@ -1,0 +1,21 @@
+#Take Input from User
+n=int(input("enter a number:"))
+#Take a loop for iterate over a sequence
+for i in range (1,n+1):
+    #Take an  empty list to append values in it
+    a=[]
+    #take nested loop for iterates between 1 to i
+    for j in range(1,i+1):
+        print(j,end=' ')
+        if j < i:
+          print("+",end=' ')
+        a.append(j)
+    print("=", sum(a))
+
+
+Output:
+1 = 1
+1 + 2 = 3
+1 + 2 + 3 = 6
+1 + 2 + 3 + 4 = 10
+1 + 2 + 3 + 4 + 5 = 15
