@@ -1,0 +1,18 @@
+import math
+
+n = int(input("enter a number :"))
+temp=n
+sum=0
+while n>0:
+    #sum=0
+    a=n%10
+    r=math.factorial(a)
+    n=n//10
+    sum+=r
+print(sum)
+if sum == temp:
+    print("Its a strong number")
+else:
+    print("Not a strong number")
+
+
