@@ -6,3 +6,15 @@ my_list.sort()
 
 sorted_list={i:d[i] for i in my_list}
 print(f"sorted list is : {sorted_list}")
+
+==========================================
+
+ d = {'ravi': 10, 'rajnish': 9, 'sanjeev': 15,"aravin":50}
+
+my_list=list(d.keys())
+#sort the keys
+my_list.sort()
+
+sorted_list={i:d[i] for i in my_list}
+print(f"sorted list is : {sorted_list}")
+
