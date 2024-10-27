@@ -4,3 +4,11 @@ total=n*(n+1)//2
 print(total)
 missing=total-sum(num)
 print(missing)
+
+-----------------------------
+num=[0,1]
+n=len(num)
+total=n*(n+1)//2
+print(total)
+missing=total-sum(num)
+print(missing)  
