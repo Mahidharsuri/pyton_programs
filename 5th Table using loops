@@ -9,7 +9,7 @@ t=5
 j=0
 while j>=0:
   for i in range(11):
-      print(t,"x",i,"=",t*i)
+      print(t,"x",i," =",t*i)
   break
 
 Output:
