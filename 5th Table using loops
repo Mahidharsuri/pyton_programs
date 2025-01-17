@@ -1,6 +1,6 @@
 #for loop
 t=5
-for i in range(11):
+for i in range( 11 ):
     print(t,"x",i,"=",t*i)
 
 #while loop
