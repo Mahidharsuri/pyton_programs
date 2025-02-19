@@ -9,7 +9,7 @@ print(f"sorted list is : {sorted_list}")
 
 ==========================================
 
- d = {'ravi': 10, 'rajnish': 9, 'sanjeev': 15,"aravin":50}
+ d = {'ravi': 10, 'rajnish': 9,  'sanjeev': 15,"aravin":50}
 
 my_list=list(d.keys())
 #sort the keys
