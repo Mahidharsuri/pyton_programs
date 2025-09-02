@@ -3,7 +3,7 @@ s = ['Love', 'Python']
 l=[]
 for i in n:
     for j in s:
-        l.append(i+" "+j)
+        l.append(i+" "+j) 
         
 print(l)
  
