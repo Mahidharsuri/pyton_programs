@@ -7,7 +7,7 @@ quiz_game={"what is the capital of india ":"delhi",
            "smallest city in india":"goa"}
 
 print("----------------------------")
-for ques,ans in quiz_game.items():
+for ques,ans in quiz_game.items(): 
     print(f'{ques:30}:{ans}')
 print("----------------------------")
 
